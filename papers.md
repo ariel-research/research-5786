@@ -22,7 +22,6 @@
 * ~[Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).~ תפוס (ויויאן)
 
 
-
 ## אלגוריתמים בגרפים
 
 האלגוריתמים יכולים להשתלב בספרייה 
