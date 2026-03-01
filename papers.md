@@ -12,13 +12,28 @@
 **לפני שמתחילים לעבוד על המאמר יש לקבל אישור ממני, כדי לוודא שהמאמר לא תפוס**.
 
 
+
+## אלגוריתמים לבחירת ועדה
+
+האלגוריתמים יכולים להשתלב בספרייה 
+[abcvoting](https://github.com/martinlackner/abcvoting).
+
+* [Justified Representation: From Hare to Droop (Casey and Elkind, 2025)](https://arxiv.org/abs/2508.00811) - ליחיד (פרקים 1,2,3) או לזוג (גם פרקים 4,5).
+* [Robust and Verifiable Proportionality Axioms for Multiwinner Voting (Brill and Peters, 2023)](https://arxiv.org/abs/2302.01989) - ליחיד (מימוש בדיקת התכונות).
+* [Proportionality Degree of Multiwinner Rules (Skowron, 2019)](https://dl.acm.org/doi/abs/10.1145/3465456.3467641) - ליחיד.
+* ~[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104) - ליחיד אפשר לעשות בזוג יחד עם המאמר הקודם.~ - תפוס (עמית גיני)
+
+
 ## אלגוריתמים לחלוקת תקציב
 
 האלגוריתמים יכולים להשתלב בספרייה 
 [pabutools](https://github.com/COMSOC-Community/pabutools/issues/21).
 
+* [APPROXIMATE CORE OF PARTICIPATORY BUDGETING VIA LINDAHL EQUILIBRIUM (Song and Nguyen, 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/84.pdf) - לזוג.
+* [Coordinating monetary contributions in participatory budgeting (Aziz, Gujar, Padala, Suzuki and Vollen 2025)](https://link.springer.com/article/10.1007/s10458-025-09715-7) - ליחיד (עד פרק 4) או לזוג (גם פרק 5).
+* [A Recommendation System for Participatory Budgeting (Leibiker and Talmon 2023)](https://optlearnmas23.github.io/files/p17.pdf) - לזוג. דרוש ידע בלמידת מכונה.
+* [Maxmin Participatory Budgeting (Sreedurga, Bhardwaj and Narahari 2022)](https://arxiv.org/abs/2204.13923) - ליחיד.
 * ~[Proportionally Representative Participatory Budgeting: Axioms and Algorithms (Aziz Lee and Talmon 2017)](https://arxiv.org/abs/1711.08226), [Rey and Maly 2023 Definition 5](https://arxiv.org/abs/2303.00621) - ליחיד (אלגוריתם 1).  אפשר לעשות בזוג יחד עם המאמר הבא.~ - תפוס (שלומי אסרף).
-* ~[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104) - ליחיד אפשר לעשות בזוג יחד עם המאמר הקודם.~ - תפוס (עמית גיני)
 * ~[Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).~ תפוס (ויויאן)
 
 
@@ -30,10 +45,8 @@
 [networkz](https://github.com/ariel-research/networkz/).
 
 * [Fair integral network flow (Frank and Murota, 2022)](https://arxiv.org/abs/1907.02673) - לזוג.
-* ~[Dividing a Graphical Cake (Bei and Suksompong, 2019)](https://arxiv.org/pdf/1910.14129.pdf#subsection.4.1) - ליחיד (פרק 4 - מציאת contiguous oriented labeling).~ - תפוס (גייה סרחאן).
-* ~[Fractional matchings (Bourjolly and Pulleyblank, 1989)](https://www.sciencedirect.com/science/article/pii/0166218X9290273D) - ליחיד (עד פרק 4) או לזוג (עם פרק 5).~ - תפוס (רואי סיבוני).
 * [Fairness in Routing and Load Balancing (Kleinberg Rabani and Tardos, 2001)](https://www.sciencedirect.com/science/article/pii/S0022000001917520) - ליחיד (פרקים 1--2) או לזוג (גם פרק 3). - תפוס .
-* ~[Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).~ - תפוס (צבי רכל).
+* [Multi-rank smart reserves: A general framework for selection and matching diversity goals (Aziz and Sun 2025)](https://www.sciencedirect.com/science/article/pii/S0004370224002108) - ליחיד (אלגוריתמים 1,3) או לזוג (גם אלגוריתם 4).
 * [Achieving Balanced Representation in School Choice with Diversity Goals (Sun and Yokoo 2025)](https://arxiv.org/abs/2412.13622) - ליחיד (אלגוריתמים 1,2,3) או לזוג (גם אלגוריתמים 4,5).
 * ~[Independent sets with domination constraints (Halldórsson, Kratochvíl, Telle; 1998)](https://www.sciencedirect.com/science/article/pii/S0166218X99001249)- ליחיד (האלגוריתמים בפרק 3).~ - תפוס (ג'מיל יעקוב).
 * [Improved Approximation for 3-Dimensional Matching via Bounded Pathwidth Local Search (Cygan, 2013)](https://arxiv.org/abs/1304.1424)- ליחיד או לזוג.
@@ -166,27 +179,3 @@
 
 * [An effective recursive partitioning approach for the packing of identical rectangles in a rectangle (Birgin, Lobato and Morabito, 2017)](https://www.tandfonline.com/doi/abs/10.1057/jors.2008.141?journalCode=tjor20) - לזוג (או ליחיד אם רק עוטפים את הקוד הקיים ב ++C).
 * [Optimal Rectangle Packing: An Absolute Placement Approach (Huang, Korf, 2013)](https://doi.org/10.1613%2Fjair.3735) - לזוג.
-
-מאמרים נוספים - רובם מתאימים לזוג - ניתן למצוא כאן:
-
-* [כנס לגיאומטריה חישובית - SOCG](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16186).
-
-
-## נושאים נוספים
-
-ניתן לבחור מאמרים בנושאים נוספים, מתוך כתבי-עת וכנסים שהתפרסמו לאחרונה. יש לבחור מאמרים על אלגוריתמים שאפשר לתכנת.
-מומלץ להתייעץ איתי בשעת הקבלה:
-
-* [כתב-עת לבינה מלאכותית - JAIR](https://www.jair.org/index.php/jair/)
-* [כתב-עת לאלגוריתמים - TALG](https://dl.acm.org/loi/talg/group/d2020.y2022)
-* [כתב-עת לחישוב - JACM](https://dl.acm.org/loi/jacm/group/d2020.y2022)
-* [כתב-עת לכלכלה וחישוב - TEAC](https://dl.acm.org/loi/teac/group/d2020.y2022)
-* [כנס יסודות מדעי המחשב - FOCS](https://focs2021.cs.colorado.edu/focs-2021-accepted-papers/)
-* [כנס תיכנות ואילוצים - CP](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16213)
-* [כנס אלגוריתמים מקורבים ואקראיים - APPROX](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16208)
-* [כנס אלגוריתמים ניסויים - SEA](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16185)
-* [כנס הוכחות אינטראקטביות - ITP](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16189) - ראו גם [automatic theorem proving in python](https://www.google.com/search?client=firefox-b-d&q=automatic+theorem+proving+in+python).
-* [כנס התאמת דגמים ומחרוזות - CPM](https://drops.dagstuhl.de/opus/portals/lipics/index.php?semnr=16191)
-* [למידת מכונה ורשתות עצביות - NeurIPS](https://papers.nips.cc/paper/2021).
-* [אלגוריתמים למתן ציונים ע"י סטודנטים - Peer Grading](https://sites.northwestern.edu/hartline/eecs-497-peer-grading/).
-

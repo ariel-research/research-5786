@@ -22,9 +22,9 @@ def myrange(n):
 def firstthreenumbers():
     """
     >>> firstthreenumbers()
-    [0, 1, 2]
+    {2, 1, 0}
     """
-    return [2,1,0]
+    return {2,1,0}
 
 # 4: expressions
 def factorial(n):

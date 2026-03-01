@@ -4,8 +4,7 @@ Illustrates solutions to some potential problems in doctest.
 
 def div3(n):
     """
-    >>> import numpy as np
-    >>> np.round(div3(10),4)
+    >>> round(div3(10),4)
     3.3333
     """
     return n/3
@@ -22,7 +21,7 @@ def firstthreenumbers():
     >>> sorted(firstthreenumbers())
     [0, 1, 2]
     """
-    return [2,1,0]
+    return {2,1,0}
 
 # 4: expressions
 def factorial(n):

@@ -1,7 +1,7 @@
 """
-This is the "example" module.
+This is the example module.
 
-The example module supplies one function, factorial().  For example,
+It supplies one function, factorial().  For example,
 
 >>> factorial(5)
 120
@@ -45,7 +45,7 @@ def factorial(n):
         raise ValueError("n must be >= 0")
     if math.floor(n) != n:
         raise ValueError("n must be exact integer")
-    if n+1 == n:  # catch a value like 1e300
+    if n+1 == n:  # catch a large value, like 1e100
         raise OverflowError("n too large")
     result = 1
     factor = 2
@@ -55,7 +55,8 @@ def factorial(n):
     return result
 
 
-if __name__ == "__main__":   # Make sure the doctests do not run when loading the module.
+if __name__ == "__main__":   
+# Make sure the doctests do not run when loading the module.
     import doctest
     print(doctest.testmod())
 
