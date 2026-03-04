@@ -21,9 +21,10 @@
 * [Justified Representation: From Hare to Droop (Casey and Elkind, 2025)](https://arxiv.org/abs/2508.00811) - ליחיד (פרקים 1,2,3) או לזוג (גם פרקים 4,5).
 * [Robust and Verifiable Proportionality Axioms for Multiwinner Voting (Brill and Peters, 2023)](https://arxiv.org/abs/2302.01989) - ליחיד (מימוש בדיקת התכונות).
 * [Proportionality Degree of Multiwinner Rules (Skowron, 2019)](https://dl.acm.org/doi/abs/10.1145/3465456.3467641) - ליחיד.
-* [Robust Committee Voting, or The Other Side of Representation (Kehne, Schmidt-Kraepelin, Sornat, 2025)](https://arxiv.org/abs/2506.18643) - ליחיד.
-* ~[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104) - ליחיד  - תפוס (עמית גיני)
 * [Selecting Interlacing Committees (Dong, Bullinger, Was, Birnbaum, ELkind 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/54.pdf) - ליחיד.
+* [Proportionality in Thumbs Up and Down Voting  (Kraiczy, Papasotiropoulos, Pierczyński and Skowron, 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/60.pdf) - לזוג. דורש שינוי הספריה לתמיכה בהצבעות שליליות.
+* [Robust Committee Voting, or The Other Side of Representation (Kehne, Schmidt-Kraepelin, Sornat, 2025)](https://arxiv.org/abs/2506.18643) - לזוג. דורש שינוי הספריה לתמיכה בהגרלות.
+* ~[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104)~ - ליחיד  - תפוס (עמית גיני)
 
 
 ## אלגוריתמים לחלוקת תקציב
