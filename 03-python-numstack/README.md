@@ -26,5 +26,6 @@
 
 * [חלק א - כיסוי צמתים](https://github.com/ariel-research/hw-mincover)
 * [חלק ב - מעגל עם מכפלה קטנה](https://github.com/ariel-research/hw-cycle1)
+* [חלק ג - פותרי משוואות](https://github.com/ariel-research/hw-solvers)
 
 </div>
