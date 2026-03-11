@@ -23,7 +23,7 @@ def mincover(graph: nx.Graph)->set:
 
 
 def test_mincover():
-    # Your code here
+    # Your tests here
     pass
 
 if __name__ == '__main__':

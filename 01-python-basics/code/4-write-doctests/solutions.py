@@ -2,6 +2,8 @@
 Illustrates solutions to some potential problems in doctest.
 """
 
+import math
+
 def div3(n):
     """
     >>> round(div3(10),4)
@@ -33,6 +35,3 @@ def factorial(n):
    
 
 
-if __name__ == "__main__":
-    import doctest
-    print(doctest.testmod())
