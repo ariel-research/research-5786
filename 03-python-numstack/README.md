@@ -19,4 +19,12 @@
 
 כתב: מעוז גרוסמן.
 ערך: אראל סגל-הלוי.
+
+## מטלות
+יש למזלג (fork) את המטלה לחשבון גיטהאב שלכם,
+ ולאפשר בדיקות אוטומטיות ע"י לחיצה על Actions.
+
+* [חלק א - כיסוי צמתים](https://github.com/ariel-research/hw-mincover)
+* [חלק ב - מעגל עם מכפלה קטנה](https://github.com/ariel-research/hw-cycle1)
+
 </div>
