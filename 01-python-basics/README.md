@@ -14,7 +14,7 @@
 יש למזלג (fork) את המטלה לחשבון גיטהאב שלכם,
  ולאפשר בדיקות אוטומטיות ע"י לחיצה על Actions.
 
-* [כתיבת קוד קצר ותמציתי - כיסוי צמתים](https://github.com/ariel-research/hw-oneliners)
+* [חלק א - כתיבת קוד קצר ותמציתי - כיסוי צמתים](https://github.com/ariel-research/hw-oneliners)
 * [חלק ב - סידור עמוק](https://github.com/ariel-research/hw-deepsort)
 
 
