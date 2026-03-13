@@ -26,22 +26,21 @@
 * [Robust Committee Voting, or The Other Side of Representation (Kehne, Schmidt-Kraepelin, Sornat, 2025)](https://arxiv.org/abs/2506.18643) - לזוג. דורש שינוי הספריה לתמיכה בהגרלות.
 * ~[Efficient, traceable, and numerical error-free implementation of the MMS voting rule (Fernandez 2023)](https://arxiv.org/abs/2309.15104)~ - ליחיד  - תפוס (עמית גיני)
 
-
 ## אלגוריתמים לחלוקת תקציב
 
 האלגוריתמים יכולים להשתלב בספרייה 
 [pabutools](https://github.com/COMSOC-Community/pabutools/issues/21).
 
-* [APPROXIMATE CORE OF PARTICIPATORY BUDGETING VIA LINDAHL EQUILIBRIUM (Song and Nguyen, 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/84.pdf) - לזוג.
-* [Coordinating monetary contributions in participatory budgeting (Aziz, Gujar, Padala, Suzuki and Vollen 2025)](https://link.springer.com/article/10.1007/s10458-025-09715-7) - ליחיד (עד פרק 4) או לזוג (גם פרק 5).
+* [Method of Equal Shares with Bounded Overspending (Papasotiropoulos, Pishbin, Skibski, Skowron, Was 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/50.pdf) - ליחיד
+* [Streamlining Equal Shares (Kraiczy, Robinson, Elkind 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/96.pdf) - ליחיד
+* [Fair Lotteries for Participatory Budgeting (Aziz, Lu, Suzuki, Vollen, Walsh 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28801) - לזוג (דורש הרחבת הספריה).
+* [An Adaptive and Verifiably Proportional Method for Participatory Budgeting (Kraiczy and Elkind, 2023)](https://arxiv.org/abs/2310.10215) - ליחיד.
+* [Maxmin Participatory Budgeting (Sreedurga, Bhardwaj and Narahari, 2022)](https://arxiv.org/abs/2204.13923) - ליחיד.
+* [Approximate core of participatory budgeting via Lindahl equilibrium (Song and Nguyen, 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/84.pdf) - לזוג.
 * [A Recommendation System for Participatory Budgeting (Leibiker and Talmon 2023)](https://optlearnmas23.github.io/files/p17.pdf) - לזוג. דרוש ידע בלמידת מכונה.
 * [Maxmin Participatory Budgeting (Sreedurga, Bhardwaj and Narahari 2022)](https://arxiv.org/abs/2204.13923) - ליחיד.
 * ~[Proportionally Representative Participatory Budgeting: Axioms and Algorithms (Aziz Lee and Talmon 2017)](https://arxiv.org/abs/1711.08226), [Rey and Maly 2023 Definition 5](https://arxiv.org/abs/2303.00621) - ליחיד (אלגוריתם 1).  אפשר לעשות בזוג יחד עם המאמר הבא.~ - תפוס (שלומי אסרף).
 * ~[Proportionally Representative Participatory Budgeting with Ordinal Preferences (Aziz and Lee 2020)](https://arxiv.org/abs/1911.00864) - ליחיד (אלגוריתם 1).~ תפוס (ויויאן)
-
-* [Method of Equal Shares with Bounded Overspending (Papasotiropoulos, Pishbin, Skibski, Skowron, Was 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/50.pdf) - ליחיד
-* [Mixed Voting Rules for Participatory Budgeting (Baychkov, Brill, Utke 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/87.pdf) - ליחיד
-* [Streamlining Equal Shares (Kraiczy, Robinson, Elkind 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/96.pdf) - ליחיד
 
 
 ## אלגוריתמים בגרפים
