@@ -155,7 +155,7 @@
 
 * [Your 2 is My 1, Your 3 is My 9: Handling Arbitrary Miscalibrations in Ratings (Wang and Shah 2018)](https://arxiv.org/abs/1806.05085) - ליחיד או לזוג. בשיתוף פעולה עם ליהי דראי מהנדסת תעשיה וניהול.
 * [On the realization space of the cube  (Adiprasito, Kalmanovich, Nevo, 2022)](https://arxiv.org/abs/1912.09554) - ליחיד או לזוג.
-* [AI-Generated Compromises for Coalition Formation (Briman, Shapiro, Talmon 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/95.pdf) - ליחיד.
+* ~[AI-Generated Compromises for Coalition Formation (Briman, Shapiro, Talmon 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/95.pdf) - ליחיד.~ תפוס (הלל אוחיון)
 * ~[Strategic Voting in the Context of Negotiating Teams (Schmerler and Hazon, 2021)](https://arxiv.org/abs/2107.14097) - ליחיד.~ - תפוס (אליסף קופל).
 * ~[Beyond majority: Label ranking ensembles based on voting rules (Werbin-Ofir, Dery, Shmueli, 2019)](https://www.sciencedirect.com/science/article/pii/S0957417419304221) - ליחיד.~ תפוס (שחר אחדות)
 * ~[BoostLR: a boosting-based learning ensemble for label ranking tasks (Dery and Shmueli, 2020)](https://ieeexplore.ieee.org/abstract/document/9205798/) - ליחיד.~ - תפוס (אוריה צדוק)
