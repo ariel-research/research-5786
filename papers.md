@@ -96,7 +96,7 @@
 * [Computational Complexity of the Hylland–Zeckhauser Mechanism for One-Sided Matching Markets (Vazirani and Yannakakis 2025)](https://epubs.siam.org/doi/abs/10.1137/23M157586X) - ליחיד (פרקים 1--4, אלגוריתם 1).
 * [Fair Division with Bounded Sharing: Binary and Non-Degenerate Valuations (Bismuth et al 2024)](https://arxiv.org/abs/1912.00459) - ליחיד (פרק 4).
 * [Ordinal Maximin Share Approximation for Goods (Hosseini et al, 2022)](https://www.jair.org/index.php/jair/article/view/13317) - ליחיד (אלגוריתם 3) או לזוג (גם אלגוריתם 2+1). - תפוס (קורן עבדוש).
-* [Fair Division Under Cardinality Constraints (Barman and Biswas, 2018)](https://arxiv.org/abs/1804.09521) - ליחיד (אלגוריתמים 1, 2).
+* [Fair Division Under Cardinality Constraints (Barman and Biswas, 2018)](https://arxiv.org/abs/1804.09521) - ליחיד (אלגוריתמים 1, 2). - תפוס (ספיר דהן)
 * [Equitable Allocations of Indivisible Goods (Freeman et al, 2019)](https://arxiv.org/abs/1905.10656) - ליחיד (משפטים 2, 3).
 * [Almost Envy-Freeness with General Valuations (Plaut and Roughgarden, 2020)](https://dl.acm.org/doi/abs/10.1145/3140756) - ליחיד (אלגוריתמים 1, 2).
 * [Fair Division of Goods in the Shadow of Market Values (Dall'Aglio, 2021)](https://arxiv.org/abs/1910.01615) - ליחיד (עד פרק 3) או לזוג (עם פרק 4).
