@@ -61,7 +61,7 @@
 תחום: centrality.
 * [ONBRA Rigorous Estimation of the Temporal Betweenness Centrality in Temporal Networks (Santoro and Sarpe, 2022)](https://dl.acm.org/doi/abs/10.1145/3485447.3512204) - לזוג. קיים מימוש ב C++ אבל לא בפייתון.
 תחום: centrality.
-* [Butterfly Counting in Bipartite Networks (Sanei-Mehri, Sariyuce, Tirthapura 2018)](https://dl.acm.org/doi/abs/10.1145/3219819.3220097). ליחיד (אלגוריתמים 1-3) או לזוג (גם אלגוריתמים 4-6).
+* ~[Butterfly Counting in Bipartite Networks (Sanei-Mehri, Sariyuce, Tirthapura 2018)](https://dl.acm.org/doi/abs/10.1145/3219819.3220097). ליחיד (אלגוריתמים 1-3) או לזוג (גם אלגוריתמים 4-6).~ - תפוס (אור ביבי).
 תחום: clustering.
 * [Graph edit distance as a quadratic assignment problem (Bouglex, Brun, Carletti, Foggia, Gauzere, Vento 2017)](https://www.sciencedirect.com/science/article/pii/S0167865516302665) - ליחיד או לזוג.
 תחום: similarity.
