@@ -32,7 +32,7 @@
 [pabutools](https://github.com/COMSOC-Community/pabutools/issues/21).
 
 * ~[Method of Equal Shares with Bounded Overspending (Papasotiropoulos, Pishbin, Skibski, Skowron, Was 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/50.pdf) - ליחיד~ - תפוס (איוון גורבצ'וב).
-* [Streamlining Equal Shares (Kraiczy, Robinson, Elkind 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/96.pdf) - ליחיד
+* ~[Streamlining Equal Shares (Kraiczy, Robinson, Elkind 2025)](https://www.ac.tuwien.ac.at/comsoc2025/comsoc2025-papers/96.pdf) - ליחיד~ - תפוס (יונתן גבאי).
 * ~[Fair Lotteries for Participatory Budgeting (Aziz, Lu, Suzuki, Vollen, Walsh 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28801) - לזוג (דורש הרחבת הספריה).~ - תפוס (דותן ונעמה).
 * [An Adaptive and Verifiably Proportional Method for Participatory Budgeting (Kraiczy and Elkind, 2023)](https://arxiv.org/abs/2310.10215) - ליחיד.
 * [Maxmin Participatory Budgeting (Sreedurga, Bhardwaj and Narahari, 2022)](https://arxiv.org/abs/2204.13923) - ליחיד.
