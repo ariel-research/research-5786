@@ -7,7 +7,7 @@ virtualenv .venv
 
 ##  To use a different python version, on Windows:
 gcm python      # To locate the python executable
-virtualenv .venv310 --python=C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe
+virtualenv .venv310 --python=C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\python.exe
 ##  To use a different python version, on Linux:
 which python    # To locate the python executable
 virtualenv .venv310 --python=...   # Fill in the right version
@@ -27,7 +27,7 @@ pip list
 # 5 
 ### To install your library, go to its main folder and say:
 pip install -e .
-### To install required packages (otherwise the wrong pytest will be used):
+### To install pytest (otherwise the wrong pytest will be used):
 pip install pytest
 
 # 6
