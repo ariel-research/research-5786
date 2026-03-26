@@ -5,9 +5,8 @@
 
 בחלק זה נתעמק בספריות הבאות:
 
-- **numpy**
-- **matplotlib**
-- **scipy**
+- **networkx**
+- **cvxpy**
 
 את כל הסקריפטים של השיעור ניתן למצוא בתיקייה code.
 
@@ -18,6 +17,7 @@
 יש למזלג (fork) את המטלה לחשבון גיטהאב שלכם,
  ולאפשר בדיקות אוטומטיות ע"י לחיצה על Actions.
 
-* [פותרי משוואות](https://github.com/ariel-research/hw-solvers)
+* [חלק א - כיסוי צמתים](https://github.com/ariel-research/hw-mincover)
+* [חלק ב - מעגל עם מכפלה קטנה](https://github.com/ariel-research/hw-cycle1)
 
 </div>
