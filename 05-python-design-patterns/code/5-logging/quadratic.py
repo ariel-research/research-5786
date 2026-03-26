@@ -2,7 +2,7 @@ import logging
 logger = logging.getLogger("quadratic")
 
 # logging.basicConfig(level=logging.DEBUG)  # Don't do it!
-# 
+
 # Example function
 def quadratic_formula(a:float, b:float ,c:float) -> float:
     """ Returns the real solutions to the equation ax^2 + bx + c = 0  """
@@ -19,9 +19,3 @@ def quadratic_formula(a:float, b:float ,c:float) -> float:
     root_b = (-b - math.sqrt(discri))/(2*a)
     logger.debug('Compute the negative root: %g', root_b)
     return root_a , root_b
-
-
-if __name__=="__main__":
-    print(quadratic_formula(1, 0, -4))
-    print(quadratic_formula(1, 0, 4))
-
