@@ -5,13 +5,13 @@ Author: Erel Segal-Halevi
 Since: 2022-03
 """
 
-from typing import Callable, Any
 from binners import *
 import outputtypes2 as out
 
 
-def partition(algorithm: Callable, numbins: int, items: list, outputtype: out.OutputType=out.Partition, **kwargs):
+def partition(algorithm: callable, numbins: int, items: list, outputtype: out.OutputType=out.Partition, **kwargs):
     """
+    >>> np.set_printoptions(legacy='1.25')
     >>> partition(algorithm=roundrobin, numbins=2, items=[1,2,3,3,5,9,9])
     [[9, 5, 3, 1], [9, 3, 2]]
     >>> partition(algorithm=roundrobin, numbins=3, items=[1,2,3,3,5,9,9], outputtype=out.Partition)
@@ -51,6 +51,7 @@ def roundrobin(binner: Binner, numbins: int, items: List[any]):
     """
     Partition the given items using the roundrobin number partitioning algorithm.
 
+    >>> np.set_printoptions(legacy='1.25')
     >>> printbins(roundrobin(BinnerKeepingContents(), 2, items=[1,2,3,3,5,9,9]))
     Bin #0: [9, 5, 3, 1], sum=18.0
     Bin #1: [9, 3, 2], sum=14.0
@@ -78,6 +79,7 @@ def greedy(binner: Binner, numbins: int, items: List[any]):
     """
     Partition the given items using the greedy number partitioning algorithm.
 
+    >>> np.set_printoptions(legacy='1.25')
     >>> printbins(greedy(BinnerKeepingContents(), 2, items=[1,2,3,3,5,9,9]))
     Bin #0: [9, 5, 2], sum=16.0
     Bin #1: [9, 3, 3, 1], sum=16.0
@@ -105,6 +107,4 @@ def greedy(binner: Binner, numbins: int, items: List[any]):
 
 if __name__ == "__main__":
     import doctest
-
-    (failures, tests) = doctest.testmod(report=True, optionflags=doctest.NORMALIZE_WHITESPACE+doctest.ELLIPSIS)
-    print("{} failures, {} tests".format(failures, tests))
+    print(doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE+doctest.ELLIPSIS))

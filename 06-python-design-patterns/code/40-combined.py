@@ -5,12 +5,11 @@ Author: Erel Segal-Halevi
 Since: 2022-03
 """
 
-from typing import Callable, Any
 from bins import *
 import outputtypes as out
 
 
-def partition(algorithm: Callable, numbins: int, items: list, outputtype: out.OutputType=out.Partition, **kwargs):
+def partition(algorithm: callable, numbins: int, items: list, outputtype: out.OutputType=out.Partition, **kwargs):
     """
     >>> partition(algorithm=roundrobin, numbins=2, items=[1,2,3,3,5,9,9])
     [[9, 5, 3, 1], [9, 3, 2]]
@@ -87,7 +86,7 @@ def greedy(bins: Bins, item_names: list):
 
 import numpy as np
 
-def partition_random_items(algorithm:callable, numitems: int, bitsperitem: int, **kwargs):
+def partition_random_items(algorithm:callable, numitems: int, bitsperitem: int, numbins:int, **kwargs):
     """
     Generates a uniformly-random list of items and partitions them using the given algorithm.
     :param numitems: how many items to generate.
@@ -97,15 +96,15 @@ def partition_random_items(algorithm:callable, numitems: int, bitsperitem: int, 
     [..., ...]
     """
     items = np.random.randint(1, 2**bitsperitem-1, numitems)
-    return partition(algorithm, items=items, **kwargs)
+    return partition(algorithm, numbins, items=items, **kwargs)
 
 
 
 
 def compare_algorithms(
-    numbins: int, items: Any, outputtype: out.OutputType,
-    algorithm1: Callable, kwargs1: dict,
-    algorithm2: Callable, kwargs2: dict,
+    numbins: int, items: any, outputtype: out.OutputType,
+    algorithm1: callable, kwargs1: dict,
+    algorithm2: callable, kwargs2: dict,
 )->bool:
     """
     Compare the output of two algorithms on the given items.
@@ -162,9 +161,7 @@ def compare_algorithms_on_random_items(numitems: int, bitsperitem: int, **kwargs
 
 if __name__ == "__main__":
     import doctest
+    print(doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE+doctest.ELLIPSIS))
 
-    (failures, tests) = doctest.testmod(report=True, optionflags=doctest.NORMALIZE_WHITESPACE+doctest.ELLIPSIS)
-    print("{} failures, {} tests".format(failures, tests))
-
-    print(partition_random_items(10, 16, algorithm=greedy, numbins=2, outputtype=out.Partition))
+    print(partition_random_items(algorithm=greedy,numitems=10, bitsperitem=16, numbins=2, outputtype=out.Partition))
     compare_algorithms_on_random_items(10, 16, numbins=2, outputtype=out.SortedSums, algorithm1=greedy, kwargs1={}, algorithm2=roundrobin, kwargs2={})

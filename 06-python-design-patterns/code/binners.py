@@ -99,7 +99,7 @@ class BinnerKeepingSums(Binner):
         bins = np.zeros(numbins)   # similar to numbins*[0]
         return bins
 
-    def add_item_to_bin(self, bins: BinsArray, item: Any, bin_index: int)->BinsArray:
+    def add_item_to_bin(self, bins: BinsArray, item: any, bin_index: int)->BinsArray:
         bins[bin_index] += self.valueof(item)
         return bins
 
@@ -130,10 +130,10 @@ class BinnerKeepingContents(BinnerKeepingSums):
     Bin #2: [], sum=0.0
     """
 
-    def __init__(self, valueof: Callable = lambda x:x):
+    def __init__(self, valueof: callable = lambda x:x):
         super().__init__(valueof)
 
-    BinsArray = Tuple[np.ndarray, List[List]]  # Here, each bins-array is a tuple: sums,lists. sums is an array of sums; lists is a list of lists of items.
+    BinsArray = tuple[np.ndarray, list[list]]  # Here, each bins-array is a tuple: sums,lists. sums is an array of sums; lists is a list of lists of items.
 
     def new_bins(self, numbins:int)->BinsArray:
         sums  = np.zeros(numbins)
@@ -151,8 +151,5 @@ class BinnerKeepingContents(BinnerKeepingSums):
         return bins[0]
 
 if __name__ == "__main__":
-    import doctest, sys
-    (failures, tests) = doctest.testmod(report=True, optionflags=doctest.FAIL_FAST)
-    print("{} failures, {} tests".format(failures, tests))
-    if failures>0:
-        sys.exit(1)
+    import doctest
+    print(doctest.testmod(optionflags=doctest.FAIL_FAST))
