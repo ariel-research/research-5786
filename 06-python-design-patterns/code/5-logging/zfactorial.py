@@ -1,6 +1,9 @@
 import logging
 logger = logging.getLogger("factorial")
 
+# from quadratic_with_wrong_log_initialization import quadratic_formula
+# from quadratic import quadratic_formula
+
 # logging.basicConfig(level=logging.DEBUG)  # Don't do it!
 
 # Example function
