@@ -15,6 +15,7 @@ try:
     response = client.models.generate_content(
         model=model,
         contents="Invent an original joke that non-English speakers could understand"
+        # contents="תמציא בדיחה מקורית"
     )
     print(response.text)
 except genai.errors.ServerError as err:
