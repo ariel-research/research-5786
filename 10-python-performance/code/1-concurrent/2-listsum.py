@@ -16,6 +16,13 @@ def sequential():
     big_sum=sum_list(big_list)
     print(f"Sequential: sum={big_sum}, time={time.perf_counter()-start} sec")
 
+def demo_map():
+    start = time.perf_counter()
+    parts = [big_list[0:LISTSIZE//4], big_list[LISTSIZE//4:LISTSIZE//2], big_list[LISTSIZE//2:3*LISTSIZE//4], big_list[3*LISTSIZE//4:LISTSIZE]]
+    partial_results = map(sum_list, parts)
+    big_sum = sum(partial_results)
+    print(f"Sequential map: sum={big_sum}, time={time.perf_counter()-start} sec")
+
 def threads():
     start = time.perf_counter()
     parts = [big_list[0:LISTSIZE//4], big_list[LISTSIZE//4:LISTSIZE//2], big_list[LISTSIZE//2:3*LISTSIZE//4], big_list[3*LISTSIZE//4:LISTSIZE]]
@@ -35,5 +42,6 @@ def processes():
 
 if __name__ == '__main__':
     sequential()
+    demo_map()
     threads()
     processes()
