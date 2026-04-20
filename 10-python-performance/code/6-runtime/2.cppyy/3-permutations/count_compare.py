@@ -7,7 +7,7 @@ import count_permutations
 import cppyy
 cppyy.include("count_permutations.cpp")
 
-use_cpp = True
+use_cpp = False
 
 if use_cpp:
 	print("Using C++ implementation")

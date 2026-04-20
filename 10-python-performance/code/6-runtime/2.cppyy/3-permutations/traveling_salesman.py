@@ -4,7 +4,7 @@ import itertools
 import math
 
 
-def find_shortest_path(distances:list)->list:
+def find_shortest_path(distances:list[list])->list:
 	"""
 	Brute-force solution of the traveling salesman problem.
 

@@ -2,8 +2,8 @@
 #
 # AUTHOR: Erel Segal-Halevi
 
-CXX=clang++-9
-CXXFLAGS=-std=c++2a -O3 -ffp-contract=off -fno-expensive-optimizations
+CXX=clang++
+CXXFLAGS=-std=c++17 -O3 -ffp-contract=off -fno-expensive-optimizations
 RM=rm -f
 
 ifndef MAIN
