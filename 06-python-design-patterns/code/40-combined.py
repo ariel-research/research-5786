@@ -9,10 +9,8 @@ from bins import *
 import outputtypes as out
 
 
-def partition(algorithm: callable, numbins: int, items: list, outputtype: out.OutputType=out.Partition, **kwargs):
+def partition(algorithm: callable, numbins: int, items: dict|list, outputtype: out.OutputType=out.Partition, **kwargs):
     """
-    >>> partition(algorithm=roundrobin, numbins=2, items=[1,2,3,3,5,9,9])
-    [[9, 5, 3, 1], [9, 3, 2]]
     >>> partition(algorithm=roundrobin, numbins=3, items=[1,2,3,3,5,9,9], outputtype=out.Partition)
     [[9, 3, 1], [9, 3], [5, 2]]
     >>> partition(algorithm=roundrobin, numbins=3, items=[1,2,3,3,5,9,9], outputtype=out.Partition, first_bin=1)

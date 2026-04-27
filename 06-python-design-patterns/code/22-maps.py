@@ -36,7 +36,7 @@ def roundrobin(numbins: int, items: list|dict):
 
 
 
-def greedy(numbins: int, items):
+def greedy(numbins: int, items:list|dict):
     """
     Partition the given items using the greedy number partitioning algorithm.
 
