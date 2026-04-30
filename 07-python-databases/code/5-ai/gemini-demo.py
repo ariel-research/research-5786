@@ -10,7 +10,7 @@ for m in client.models.list():
         if action == "generateContent":
             print(m.name)
 
-model = "gemini-flash-lite-latest"
+model = "gemini-flash-latest"
 try:
     response = client.models.generate_content(
         model=model,
