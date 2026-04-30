@@ -27,7 +27,6 @@ def roundrobin(bins: Bins, items: list[float]):
 def greedy(bins: Bins, items: list[float]):
     """
     Partition the given items using the greedy number partitioning algorithm.
-    Return the partition.
 
     >>> greedy(bins=BinsKeepingSums(2), items=[1,2,3,3,5,9,9]).result()
     [16, 16]
