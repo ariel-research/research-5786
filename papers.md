@@ -124,7 +124,7 @@
 * [A Little Charity Guarantees Almost Envy-Freeness (Chaudhury et al, 2020)](https://epubs.siam.org/doi/abs/10.1137/20M1359134) - לזוג.
 * [Equitable distribution of indivisible objects (Demko and Hill, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0165489688900479) - לזוג.
 * [Worst case compromises in matroids (Gourvet et al, 2015)](https://www.sciencedirect.com/science/article/pii/S0304397515003722#br0150) - לזוג.
-* [Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3).
+* ~[Approximately Fair Allocations of Indivisible Goods (Lipton et al., 2004)](https://dl.acm.org/doi/pdf/10.1145/988772.988792) - ליחיד (משפטים 2.1, 3.3).~ - תפוס (נועה פטיטו)
 * [Towards Optimal Subsidy Bounds for Envy-freeable Allocations (Kawase Makino Sumita Tamura Yokoo 2023)](https://arxiv.org/abs/2308.11230)
 * [Fair Division with Subsidy (Halpern and Shah, 2019)](https://link.springer.com/chapter/10.1007/978-3-030-30473-7_25) - לזוג (Proposition 1, Theorem 2, Theorem 5, Proposition 4, Theorem 6, Appendix B).
 * [Computing envy-freeable allocations with limited subsidies (Caragiannis and Ioannidis, 2021)](https://arxiv.org/abs/2002.02789) - ליחיד (פרק 3). 
