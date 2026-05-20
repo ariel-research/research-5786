@@ -10,7 +10,7 @@ def hello_world():
     return '''
         <h1>Hello World!!!</h1>
         <p><a href="/about">About the site</a>
-        <p><button onclick='window.location.href="/about"'>About the site</button>
+        <p><button onclick='alert("button clicked"); window.location.href="/about"'>About the site</button>
         '''
 
 @app.route('/about')

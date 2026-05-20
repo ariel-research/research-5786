@@ -17,6 +17,9 @@ users_from_database = [   # Simulates reading from database.
     {'name': 'Rusty Rust',
     'email': 'rust@example.com',
     'phone': '5555555'},
+    {'name': 'A B C',
+    'email': 'abc@example.com',
+    'phone': '123123'},
 ]
 
 @app.route('/')

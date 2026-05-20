@@ -18,6 +18,8 @@ def quadraticform():
         a, b, c = form.a.data, form.b.data, form.c.data
         log_stream = StringIO()
         log_handler = logging.StreamHandler(log_stream)
+        formatter = logging.Formatter('%(asctime)s: %(levelname)s: %(name)s: Line %(lineno)d: %(message)s')
+        log_handler.setFormatter(formatter)
         quadratic.logger.addHandler(log_handler)
         quadratic.logger.setLevel(logging.DEBUG)
         roots = quadratic.quadratic_formula(a, b, c)

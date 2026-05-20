@@ -22,6 +22,8 @@ def quadratic_formula(a:float, b:float ,c:float) -> (float,float):
 
 
 if __name__=="__main__":
+    logger.addHandler(logging.StreamHandler())
+    logger.setLevel(logging.DEBUG)
     print(quadratic_formula(1, 0, -4))
     print(quadratic_formula(1, 0, 4))
 
